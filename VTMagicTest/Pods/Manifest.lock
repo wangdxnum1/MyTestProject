@@ -1,0 +1,12 @@
+PODS:
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+
+DEPENDENCIES:
+  - VTMagic
+
+SPEC CHECKSUMS:
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+
+COCOAPODS: 0.39.0
