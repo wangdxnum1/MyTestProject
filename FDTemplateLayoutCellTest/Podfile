@@ -1,0 +1,1 @@
+ pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
