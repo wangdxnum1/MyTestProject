@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "TWMyScrollView.h"
+#import "TWTestView.h"
+#import "TWZhiRefreshHeader.h"
 
 @interface ViewController ()
 
@@ -26,9 +28,15 @@
 //    TWMyScrollView *scrollView = [[TWMyScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds];
 //    [self.view addSubview:scrollView];
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, -44, [UIScreen mainScreen].bounds.size.width, 44)];
-    view.backgroundColor = [UIColor orangeColor];
-    [self.tableView addSubview:view];
+//    TWTestView *view = [[TWTestView alloc] initWithFrame:CGRectMake(0, -44, [UIScreen mainScreen].bounds.size.width, 44)];
+////    view.backgroundColor = [UIColor orangeColor];
+//    [self.tableView addSubview:view];
+    
+    self.tableView.mj_header = [TWZhiRefreshHeader headerWithRefreshingBlock:^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self.tableView.mj_header endRefreshing];
+        });
+    }];
 }
 
 

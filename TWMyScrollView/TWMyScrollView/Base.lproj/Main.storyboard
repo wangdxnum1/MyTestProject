@@ -38,7 +38,13 @@
                             <constraint firstAttribute="trailing" secondItem="Ovy-lb-yKR" secondAttribute="trailing" id="w7b-6O-6CA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3mo-0N-7Mg"/>
+                    <navigationItem key="navigationItem" id="3mo-0N-7Mg">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="G5J-Rx-2D0">
+                            <connections>
+                                <segue destination="LYl-dZ-gtQ" kind="show" id="RLH-fQ-SwI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Ovy-lb-yKR" id="0pG-Ru-ZIN"/>
                     </connections>
@@ -46,6 +52,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="975.20000000000005" y="38.23088455772114"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="YKo-Vo-IT3">
+            <objects>
+                <viewController id="LYl-dZ-gtQ" customClass="TWTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B1W-bR-qRI"/>
+                        <viewControllerLayoutGuide type="bottom" id="W1b-oI-JmU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QjP-QL-Hcd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Ye-g8-06o">
+                                <rect key="frame" x="63" y="306" width="249" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.44590761917423238" green="1" blue="0.35846087794800519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rmU-UJ-47R">
+                                <rect key="frame" x="175" y="197" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="rmU-UJ-47R" id="qIX-Kq-TP4"/>
+                        <outlet property="slider" destination="1Ye-g8-06o" id="BJ4-aE-4cC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l5s-dl-Pt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664.8" y="37.331334332833585"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XSB-Ob-x1D">

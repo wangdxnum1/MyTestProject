@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560A48D8EEEE167A8FC4C9B4 /* libPods-TWMyScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4FE09E00C1F842344491BD /* libPods-TWMyScrollView.a */; };
 		EBC666E61EB2DD6600E20177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC666E51EB2DD6600E20177 /* main.m */; };
 		EBC666E91EB2DD6600E20177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC666E81EB2DD6600E20177 /* AppDelegate.m */; };
 		EBC666EC1EB2DD6600E20177 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC666EB1EB2DD6600E20177 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		EBC666FF1EB2DD6600E20177 /* TWMyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC666FE1EB2DD6600E20177 /* TWMyScrollViewTests.m */; };
 		EBC6670A1EB2DD6600E20177 /* TWMyScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC667091EB2DD6600E20177 /* TWMyScrollViewUITests.m */; };
 		EBC667191EB2DDC200E20177 /* TWMyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC667181EB2DDC200E20177 /* TWMyScrollView.m */; };
+		EBC6671E1EB3151800E20177 /* TWTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC6671D1EB3151800E20177 /* TWTestView.m */; };
+		EBC667211EB3191A00E20177 /* TWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC667201EB3191A00E20177 /* TWTestViewController.m */; };
+		EBC667251EB31EDA00E20177 /* TWZhiRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC667241EB31EDA00E20177 /* TWZhiRefreshHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74B8AEC2FD9169C1F5AF0981 /* Pods-TWMyScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMyScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWMyScrollView/Pods-TWMyScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		8286C346EA6AD7BDD3D7C589 /* Pods-TWMyScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWMyScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWMyScrollView/Pods-TWMyScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		9D4FE09E00C1F842344491BD /* libPods-TWMyScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWMyScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC666E11EB2DD6600E20177 /* TWMyScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWMyScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC666E51EB2DD6600E20177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBC666E71EB2DD6600E20177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +61,12 @@
 		EBC6670B1EB2DD6600E20177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC667171EB2DDC200E20177 /* TWMyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMyScrollView.h; sourceTree = "<group>"; };
 		EBC667181EB2DDC200E20177 /* TWMyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMyScrollView.m; sourceTree = "<group>"; };
+		EBC6671C1EB3151800E20177 /* TWTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTestView.h; sourceTree = "<group>"; };
+		EBC6671D1EB3151800E20177 /* TWTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTestView.m; sourceTree = "<group>"; };
+		EBC6671F1EB3191A00E20177 /* TWTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTestViewController.h; sourceTree = "<group>"; };
+		EBC667201EB3191A00E20177 /* TWTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTestViewController.m; sourceTree = "<group>"; };
+		EBC667231EB31EDA00E20177 /* TWZhiRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWZhiRefreshHeader.h; sourceTree = "<group>"; };
+		EBC667241EB31EDA00E20177 /* TWZhiRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWZhiRefreshHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560A48D8EEEE167A8FC4C9B4 /* libPods-TWMyScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049F2EA17ADBF809371078F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4FE09E00C1F842344491BD /* libPods-TWMyScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86576CA0C772EFF9C712AC60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B8AEC2FD9169C1F5AF0981 /* Pods-TWMyScrollView.debug.xcconfig */,
+				8286C346EA6AD7BDD3D7C589 /* Pods-TWMyScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EBC666D81EB2DD6500E20177 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +119,8 @@
 				EBC666FD1EB2DD6600E20177 /* TWMyScrollViewTests */,
 				EBC667081EB2DD6600E20177 /* TWMyScrollViewUITests */,
 				EBC666E21EB2DD6600E20177 /* Products */,
+				86576CA0C772EFF9C712AC60 /* Pods */,
+				049F2EA17ADBF809371078F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +137,15 @@
 		EBC666E31EB2DD6600E20177 /* TWMyScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				EBC667171EB2DDC200E20177 /* TWMyScrollView.h */,
-				EBC667181EB2DDC200E20177 /* TWMyScrollView.m */,
+				EBC667221EB31E7800E20177 /* TWZhiRefreshHeader */,
+				EBC6671B1EB314E200E20177 /* Test */,
+				EBC6671A1EB314DA00E20177 /* TWMyScrollView */,
 				EBC666E71EB2DD6600E20177 /* AppDelegate.h */,
 				EBC666E81EB2DD6600E20177 /* AppDelegate.m */,
 				EBC666EA1EB2DD6600E20177 /* ViewController.h */,
 				EBC666EB1EB2DD6600E20177 /* ViewController.m */,
+				EBC6671F1EB3191A00E20177 /* TWTestViewController.h */,
+				EBC667201EB3191A00E20177 /* TWTestViewController.m */,
 				EBC666ED1EB2DD6600E20177 /* Main.storyboard */,
 				EBC666F01EB2DD6600E20177 /* Assets.xcassets */,
 				EBC666F21EB2DD6600E20177 /* LaunchScreen.storyboard */,
@@ -145,6 +181,33 @@
 			path = TWMyScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		EBC6671A1EB314DA00E20177 /* TWMyScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EBC667171EB2DDC200E20177 /* TWMyScrollView.h */,
+				EBC667181EB2DDC200E20177 /* TWMyScrollView.m */,
+			);
+			name = TWMyScrollView;
+			sourceTree = "<group>";
+		};
+		EBC6671B1EB314E200E20177 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EBC6671C1EB3151800E20177 /* TWTestView.h */,
+				EBC6671D1EB3151800E20177 /* TWTestView.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		EBC667221EB31E7800E20177 /* TWZhiRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EBC667231EB31EDA00E20177 /* TWZhiRefreshHeader.h */,
+				EBC667241EB31EDA00E20177 /* TWZhiRefreshHeader.m */,
+			);
+			name = TWZhiRefreshHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBC6670E1EB2DD6600E20177 /* Build configuration list for PBXNativeTarget "TWMyScrollView" */;
 			buildPhases = (
+				0E06EA802B7A72F6FABE89E5 /* [CP] Check Pods Manifest.lock */,
 				EBC666DD1EB2DD6600E20177 /* Sources */,
 				EBC666DE1EB2DD6600E20177 /* Frameworks */,
 				EBC666DF1EB2DD6600E20177 /* Resources */,
+				FE7104EDE96566E7AB2BA1EC /* [CP] Embed Pods Frameworks */,
+				CF497F4601EAA87643E9182B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,15 +342,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E06EA802B7A72F6FABE89E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF497F4601EAA87643E9182B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWMyScrollView/Pods-TWMyScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7104EDE96566E7AB2BA1EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWMyScrollView/Pods-TWMyScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBC666DD1EB2DD6600E20177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EBC666EC1EB2DD6600E20177 /* ViewController.m in Sources */,
+				EBC667211EB3191A00E20177 /* TWTestViewController.m in Sources */,
 				EBC666E91EB2DD6600E20177 /* AppDelegate.m in Sources */,
+				EBC6671E1EB3151800E20177 /* TWTestView.m in Sources */,
 				EBC667191EB2DDC200E20177 /* TWMyScrollView.m in Sources */,
 				EBC666E61EB2DD6600E20177 /* main.m in Sources */,
+				EBC667251EB31EDA00E20177 /* TWZhiRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +550,7 @@
 		};
 		EBC6670F1EB2DD6600E20177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B8AEC2FD9169C1F5AF0981 /* Pods-TWMyScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W398QN8ZGP;
@@ -446,6 +564,7 @@
 		};
 		EBC667101EB2DD6600E20177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8286C346EA6AD7BDD3D7C589 /* Pods-TWMyScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W398QN8ZGP;
@@ -526,6 +645,7 @@
 				EBC667101EB2DD6600E20177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBC667111EB2DD6600E20177 /* Build configuration list for PBXNativeTarget "TWMyScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +654,7 @@
 				EBC667131EB2DD6600E20177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBC667141EB2DD6600E20177 /* Build configuration list for PBXNativeTarget "TWMyScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +663,7 @@
 				EBC667161EB2DD6600E20177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
