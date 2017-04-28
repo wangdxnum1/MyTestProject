@@ -115,6 +115,9 @@
     
     // 根据状态做事情
     if (state == MJRefreshStatePulling || state == MJRefreshStateRefreshing) {
+        if(state == MJRefreshStateRefreshing){
+            NSLog(@"MJRefreshStateRefreshing");
+        }
         NSArray *images = self.stateImages[@(state)];
         if (images.count == 0) return;
         
