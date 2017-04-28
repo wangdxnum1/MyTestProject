@@ -30,9 +30,8 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%@r", @(i)]];
         [refreshingImages addObject:image];
     }
-    
-    UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%@p", @(60)]];
-    [self setImages:idleImages forState:MJRefreshStatePulling];
+
+    [self setImages:refreshingImages forState:MJRefreshStatePulling];
     
     // 设置正在刷新状态的动画图片
     [self setImages:refreshingImages forState:MJRefreshStateRefreshing];
